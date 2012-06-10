@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="LearnEJB2.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/LearnEJB2.war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LearnEJB2" />
+          <element id="jpa-descriptors" facet="LearnEJB2/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="LearnEJB2/web/Web" />
+      <element id="javaee-facet-resources" facet="LearnEJB2/ejb/EJB" />
+      <element id="javaee-facet-resources" facet="LearnEJB2/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
