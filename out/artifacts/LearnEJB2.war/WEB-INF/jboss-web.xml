@@ -1,0 +1,7 @@
+<jboss-web>
+    <resource-ref>
+        <res-ref-name>sampleEJB</res-ref-name>      <!-- Fake name. -->
+        <jndi-name>java:/sampleEJB</jndi-name>                          <!-- Real JNDI name. -->
+        <res-type>javax.sql.DataSource</res-type>
+    </resource-ref>
+</jboss-web>
