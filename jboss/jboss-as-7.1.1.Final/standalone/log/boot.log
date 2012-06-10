@@ -1,0 +1,98 @@
+13:26:07,429 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+13:26:07,644 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+13:26:07,711 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final "Brontes" starting
+13:26:07,712 DEBUG [org.jboss.as.config] Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/sam/jboss-as-7.1.1.Final/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/lib/jvm/jdk1.7.0/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/jdk1.7.0/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/jdk1.7.0/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /home/sam/idea-IU-117.418/bin::/usr/java/packages/lib/i386:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0-b147
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 21.0-b17
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/sam/jboss-as-7.1.1.Final
+	jboss.host.name = tal
+	jboss.modules.dir = /home/sam/jboss-as-7.1.1.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = tal
+	jboss.qualified.host.name = tal
+	jboss.server.base.dir = /home/sam/jboss-as-7.1.1.Final/standalone
+	jboss.server.config.dir = /home/sam/jboss-as-7.1.1.Final/standalone/configuration
+	jboss.server.data.dir = /home/sam/jboss-as-7.1.1.Final/standalone/data
+	jboss.server.default.config = standalone.xml
+	jboss.server.deploy.dir = /home/sam/jboss-as-7.1.1.Final/standalone/data/content
+	jboss.server.log.dir = /home/sam/jboss-as-7.1.1.Final/standalone/log
+	jboss.server.name = tal
+	jboss.server.temp.dir = /home/sam/jboss-as-7.1.1.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/sam/jboss-as-7.1.1.Final/standalone/configuration/logging.properties
+	module.path = /home/sam/jboss-as-7.1.1.Final/modules
+	org.jboss.boot.log.file = /home/sam/jboss-as-7.1.1.Final/standalone/log/boot.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = i386
+	os.name = Linux
+	os.version = 2.6.32-41-generic
+	path.separator = :
+	sun.arch.data.model = 32
+	sun.boot.class.path = /usr/lib/jvm/jdk1.7.0/jre/lib/resources.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/rt.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/jce.jar:/usr/lib/jvm/jdk1.7.0/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.7.0/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/jdk1.7.0/jre/lib/i386
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/sam/jboss-as-7.1.1.Final/jboss-modules.jar -mp /home/sam/jboss-as-7.1.1.Final/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=/home/sam/jboss-as-7.1.1.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = /home/sam/jboss-as-7.1.1.Final/bin
+	user.home = /home/sam
+	user.language = en
+	user.name = sam
+	user.timezone = Europe/Luxembourg
+13:26:07,724 DEBUG [org.jboss.as.config] VM Arguments: -D[Standalone] -XX:+TieredCompilation -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Dorg.jboss.resolver.warning=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.server.default.config=standalone.xml -Dorg.jboss.boot.log.file=/home/sam/jboss-as-7.1.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/sam/jboss-as-7.1.1.Final/standalone/configuration/logging.properties 
+13:26:08,851 INFO  [org.xnio] XNIO Version 3.0.3.GA
+13:26:08,877 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+13:26:08,891 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+13:26:08,917 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.3.GA
+13:26:08,980 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers

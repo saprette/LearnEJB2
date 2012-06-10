@@ -36,7 +36,7 @@ public class SalutationServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>" +
-                    salutationBean.getFormalSalutation("Sherlock Holmestetst change") +
+                    salutationBean.getFormalSalutation("Sherlock Holmes ajout de jboss") +
                     "</h1>");
             out.println("</body>");
             out.println("</html>");
