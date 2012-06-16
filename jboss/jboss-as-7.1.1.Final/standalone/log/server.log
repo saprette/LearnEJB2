@@ -4525,3 +4525,655 @@ JBAS014776:    Newly corrected services:
 13:30:58,244 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-2) HHH000397: Using ASTQueryTranslatorFactory
 13:30:58,324 INFO  [org.jboss.web] (MSC service thread 1-3) JBAS018210: Registering web context: /LearnEJB2
 13:30:58,443 INFO  [org.jboss.as.server] (management-handler-thread - 15) JBAS018559: Deployed "LearnEJB2.war"
+16:55:04,639 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013100: Current PicketBox version=4.0.7.Final
+16:55:04,770 INFO  [org.jboss.as.connector] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+16:55:04,675 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+16:55:06,149 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+16:55:07,211 INFO  [org.jboss.as.naming] (MSC service thread 1-6) JBAS011802: Starting Naming Service
+16:55:07,225 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
+16:55:08,023 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) Starting Coyote HTTP/1.1 on http--127.0.0.1-8080
+16:55:08,279 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-5) JBoss Web Services - Stack CXF Server 4.0.2.GA
+16:55:08,919 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory /home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/deployments
+16:55:08,943 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "LearnEJB2.war"
+16:55:08,986 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /127.0.0.1:9999
+16:55:08,986 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on /127.0.0.1:4447
+16:55:09,504 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:/sampleEJB]
+16:55:09,563 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Read persistence.xml for sampleEJB
+16:55:09,793 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named SalutationBean in deployment unit deployment "LearnEJB2.war" are as follows:
+
+	java:global/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:app/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:module/SalutationBean!packt.SalutationBean
+	java:global/LearnEJB2/SalutationBean
+	java:app/LearnEJB2/SalutationBean
+	java:module/SalutationBean
+
+16:55:10,232 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011402: Starting Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+16:55:10,626 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-2) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+16:55:10,634 INFO  [org.hibernate.Version] (MSC service thread 1-2) HHH000412: Hibernate Core {4.0.1.Final}
+16:55:10,639 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-2) HHH000206: hibernate.properties not found
+16:55:10,644 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-2) HHH000021: Bytecode provider name : javassist
+16:55:10,740 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-2) HHH000204: Processing PersistenceUnitInfo [
+	name: sampleEJB
+	...]
+16:55:10,882 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-2) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+16:55:11,441 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-2) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:55:11,462 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-2) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+16:55:11,537 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-2) HHH000397: Using ASTQueryTranslatorFactory
+16:55:12,115 INFO  [org.jboss.web] (MSC service thread 1-4) JBAS018210: Registering web context: /LearnEJB2
+16:55:12,163 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "LearnEJB2.war"
+16:55:12,323 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+16:55:12,326 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 14426ms - Started 190 of 267 services (76 services are passive or on-demand)
+16:56:02,294 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) Pausing Coyote HTTP/1.1 on http--127.0.0.1-8080
+16:56:02,303 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) Stopping Coyote HTTP/1.1 on http--127.0.0.1-8080
+16:57:00,986 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+16:57:01,027 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+16:57:01,082 INFO  [org.jboss.as.connector] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+16:57:01,141 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+16:57:01,155 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+16:57:01,151 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+16:57:01,148 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+16:57:01,182 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013100: Current PicketBox version=4.0.7.Final
+16:57:01,191 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+16:57:01,274 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+16:57:01,277 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+16:57:01,536 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-2) JBoss Web Services - Stack CXF Server 4.0.2.GA
+16:57:01,674 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) Starting Coyote HTTP/1.1 on http--127.0.0.1-8080
+16:57:02,119 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "LearnEJB2.war"
+16:57:02,119 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on /127.0.0.1:9999
+16:57:02,118 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on /127.0.0.1:4447
+16:57:02,135 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/deployments
+16:57:02,391 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:/sampleEJB]
+16:57:02,456 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) JBAS011401: Read persistence.xml for sampleEJB
+16:57:02,594 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named SalutationBean in deployment unit deployment "LearnEJB2.war" are as follows:
+
+	java:global/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:app/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:module/SalutationBean!packt.SalutationBean
+	java:global/LearnEJB2/SalutationBean
+	java:app/LearnEJB2/SalutationBean
+	java:module/SalutationBean
+
+16:57:02,815 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) JBAS011402: Starting Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+16:57:02,991 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-6) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+16:57:03,015 INFO  [org.hibernate.Version] (MSC service thread 1-6) HHH000412: Hibernate Core {4.0.1.Final}
+16:57:03,032 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-6) HHH000206: hibernate.properties not found
+16:57:03,040 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-6) HHH000021: Bytecode provider name : javassist
+16:57:03,073 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-6) HHH000204: Processing PersistenceUnitInfo [
+	name: sampleEJB
+	...]
+16:57:03,167 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-6) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+16:57:03,495 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-6) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:57:03,518 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-6) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+16:57:03,529 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-6) HHH000397: Using ASTQueryTranslatorFactory
+16:57:03,819 INFO  [org.jboss.web] (MSC service thread 1-1) JBAS018210: Registering web context: /LearnEJB2
+16:57:03,908 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "LearnEJB2.war"
+16:57:04,079 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+16:57:04,082 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 5296ms - Started 190 of 267 services (76 services are passive or on-demand)
+16:58:02,004 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+16:58:02,052 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+16:58:02,088 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+16:58:02,111 INFO  [org.jboss.as.connector] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+16:58:02,125 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+16:58:02,153 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+16:58:02,205 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+16:58:02,209 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+16:58:02,230 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013100: Current PicketBox version=4.0.7.Final
+16:58:02,234 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+16:58:02,241 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+16:58:02,521 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-6) JBoss Web Services - Stack CXF Server 4.0.2.GA
+16:58:02,596 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Starting Coyote HTTP/1.1 on http--127.0.0.1-8080
+16:58:03,015 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /127.0.0.1:4447
+16:58:03,020 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on /127.0.0.1:9999
+16:58:03,021 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "LearnEJB2.war"
+16:58:03,055 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory /home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/deployments
+16:58:03,213 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:/sampleEJB]
+16:58:03,319 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for sampleEJB
+16:58:03,423 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named SalutationBean in deployment unit deployment "LearnEJB2.war" are as follows:
+
+	java:global/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:app/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:module/SalutationBean!packt.SalutationBean
+	java:global/LearnEJB2/SalutationBean
+	java:app/LearnEJB2/SalutationBean
+	java:module/SalutationBean
+
+16:58:03,596 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011402: Starting Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+16:58:03,776 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-2) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+16:58:03,783 INFO  [org.hibernate.Version] (MSC service thread 1-2) HHH000412: Hibernate Core {4.0.1.Final}
+16:58:03,785 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-2) HHH000206: hibernate.properties not found
+16:58:03,788 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-2) HHH000021: Bytecode provider name : javassist
+16:58:03,823 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-2) HHH000204: Processing PersistenceUnitInfo [
+	name: sampleEJB
+	...]
+16:58:03,916 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-2) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+16:58:04,250 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-2) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:58:04,271 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-2) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+16:58:04,281 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-2) HHH000397: Using ASTQueryTranslatorFactory
+16:58:04,572 INFO  [org.jboss.web] (MSC service thread 1-6) JBAS018210: Registering web context: /LearnEJB2
+16:58:04,594 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "LearnEJB2.war"
+16:58:04,760 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+16:58:04,763 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 4604ms - Started 190 of 267 services (76 services are passive or on-demand)
+16:59:51,509 INFO  [org.jboss.as.osgi] (MSC service thread 1-3) JBAS011942: Stopping OSGi Framework
+16:59:51,513 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Pausing Coyote HTTP/1.1 on http--127.0.0.1-8080
+17:16:40,817 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+17:16:40,876 INFO  [org.jboss.as.connector] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+17:16:40,827 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+17:16:40,799 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+17:16:40,805 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+17:16:40,802 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+17:16:40,935 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013100: Current PicketBox version=4.0.7.Final
+17:16:41,343 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+17:16:41,348 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) JBAS015400: Bound mail session [java:jboss/mail/Default]
+17:16:42,347 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+17:16:42,582 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-3) JBoss Web Services - Stack CXF Server 4.0.2.GA
+17:16:42,868 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) Starting Coyote HTTP/1.1 on http--127.0.0.1-8080
+17:16:44,172 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory /home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/deployments
+17:16:44,217 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:/sampleEJB]
+17:16:44,302 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "LearnEJB2.war"
+17:16:44,914 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /127.0.0.1:4447
+17:16:44,917 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /127.0.0.1:9999
+17:16:45,478 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC00001: Failed to start service jboss.deployment.unit."LearnEJB2.war".PARSE: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".PARSE: Failed to process phase PARSE of deployment "LearnEJB2.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [rt.jar:1.7.0]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [rt.jar:1.7.0]
+	at java.lang.Thread.run(Thread.java:722) [rt.jar:1.7.0]
+Caused by: org.jboss.msc.service.ServiceNotFoundException: Service service jboss.ejb.default-resource-adapter-name-service not found
+	at org.jboss.msc.service.ServiceContainerImpl.getRequiredService(ServiceContainerImpl.java:447) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.as.ejb3.deployment.processors.MessageDrivenComponentDescriptionFactory.getDefaultResourceAdapterName(MessageDrivenComponentDescriptionFactory.java:273)
+	at org.jboss.as.ejb3.deployment.processors.MessageDrivenComponentDescriptionFactory.processMessageBeans(MessageDrivenComponentDescriptionFactory.java:153)
+	at org.jboss.as.ejb3.deployment.processors.MessageDrivenComponentDescriptionFactory.processAnnotations(MessageDrivenComponentDescriptionFactory.java:81)
+	at org.jboss.as.ejb3.deployment.processors.AnnotatedEJBComponentDescriptionDeploymentUnitProcessor.processAnnotations(AnnotatedEJBComponentDescriptionDeploymentUnitProcessor.java:58)
+	at org.jboss.as.ejb3.deployment.processors.AbstractDeploymentUnitProcessor.deploy(AbstractDeploymentUnitProcessor.java:81)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+17:16:45,673 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "LearnEJB2.war"
+17:16:45,683 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.unit."LearnEJB2.war".PARSE: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".PARSE: Failed to process phase PARSE of deployment "LearnEJB2.war"
+
+17:16:45,809 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+17:16:45,815 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 11666ms - Started 136 of 212 services (1 services failed or missing dependencies, 74 services are passive or on-demand)
+17:16:49,581 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment LearnEJB2.war in 7ms
+17:16:49,709 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS018558: Undeployed "LearnEJB2.war"
+17:16:49,947 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "LearnEJB2.war"
+17:16:49,986 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC00001: Failed to start service jboss.deployment.unit."LearnEJB2.war".PARSE: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".PARSE: Failed to process phase PARSE of deployment "LearnEJB2.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:119) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [rt.jar:1.7.0]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [rt.jar:1.7.0]
+	at java.lang.Thread.run(Thread.java:722) [rt.jar:1.7.0]
+Caused by: org.jboss.msc.service.ServiceNotFoundException: Service service jboss.ejb.default-resource-adapter-name-service not found
+	at org.jboss.msc.service.ServiceContainerImpl.getRequiredService(ServiceContainerImpl.java:447) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.as.ejb3.deployment.processors.MessageDrivenComponentDescriptionFactory.getDefaultResourceAdapterName(MessageDrivenComponentDescriptionFactory.java:273)
+	at org.jboss.as.ejb3.deployment.processors.MessageDrivenComponentDescriptionFactory.processMessageBeans(MessageDrivenComponentDescriptionFactory.java:153)
+	at org.jboss.as.ejb3.deployment.processors.MessageDrivenComponentDescriptionFactory.processAnnotations(MessageDrivenComponentDescriptionFactory.java:81)
+	at org.jboss.as.ejb3.deployment.processors.AnnotatedEJBComponentDescriptionDeploymentUnitProcessor.processAnnotations(AnnotatedEJBComponentDescriptionDeploymentUnitProcessor.java:58)
+	at org.jboss.as.ejb3.deployment.processors.AbstractDeploymentUnitProcessor.deploy(AbstractDeploymentUnitProcessor.java:81)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	... 5 more
+
+17:16:50,011 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015870: Deploy of deployment "LearnEJB2.war" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.unit.\"LearnEJB2.war\".PARSE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"LearnEJB2.war\".PARSE: Failed to process phase PARSE of deployment \"LearnEJB2.war\""}}
+17:16:50,012 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment LearnEJB2.war in 1ms
+17:16:50,022 INFO  [org.jboss.as.controller] (management-handler-thread - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.unit."LearnEJB2.war".PARSE: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".PARSE: Failed to process phase PARSE of deployment "LearnEJB2.war"
+
+17:16:52,341 INFO  [org.jboss.as.controller] (MSC service thread 1-4) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.server.controller.management.security_realm.ApplicationRealm.properties_authentication (missing) dependents: [service jboss.server.controller.management.security_realm.ApplicationRealm] 
+
+17:16:52,376 INFO  [org.jboss.as.osgi] (MSC service thread 1-2) JBAS011942: Stopping OSGi Framework
+17:16:52,379 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) Pausing Coyote HTTP/1.1 on http--127.0.0.1-8080
+17:19:10,657 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 32) JBAS016200: Activating ConfigAdmin Subsystem
+17:19:10,682 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) JBAS010280: Activating Infinispan subsystem.
+17:19:10,777 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 48) JBAS011800: Activating Naming Subsystem
+17:19:10,792 INFO  [org.jboss.as.connector] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+17:19:10,794 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 49) JBAS011940: Activating OSGi Subsystem
+17:19:10,801 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 54) JBAS013101: Activating Security Subsystem
+17:19:10,857 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013100: Current PicketBox version=4.0.7.Final
+17:19:10,880 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 38) JBAS016300: Activating JacORB Subsystem
+17:19:10,927 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 58) JBAS015537: Activating WebServices Extension
+17:19:10,942 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+17:19:10,939 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+17:19:10,935 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+17:19:11,078 INFO  [org.jboss.jaxr] (MSC service thread 1-5) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+17:19:11,282 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-1) JBoss Web Services - Stack CXF Server 4.0.2.GA
+17:19:11,330 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) Starting Coyote HTTP/1.1 on http--127.0.0.1-8080
+17:19:11,824 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Listening on localhost/127.0.0.1:4447
+17:19:11,826 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on /127.0.0.1:9999
+17:19:11,897 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory /home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/deployments
+17:19:12,158 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+17:19:12,446 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingjournal,bindingsDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingbindings,largeMessagesDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messaginglargemessages,pagingDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingpaging)
+17:19:12,514 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) Waiting to obtain live lock
+17:19:12,834 INFO  [org.jboss.as.jacorb] (MSC service thread 1-6) JBAS016330: CORBA ORB Service started
+17:19:13,006 INFO  [org.hornetq.core.persistence.impl.journal.JournalStorageManager] (MSC service thread 1-1) Using AIO Journal
+17:19:13,307 INFO  [org.jboss.as.jacorb] (MSC service thread 1-5) JBAS016328: CORBA Naming Service started
+17:19:13,382 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-1) Waiting to obtain live lock
+17:19:13,385 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-1) Live Server Obtained live lock
+17:19:14,264 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-1) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5445 for CORE protocol
+17:19:14,267 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-1) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5455 for CORE protocol
+17:19:14,273 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) Server is now live
+17:19:14,281 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) HornetQ Server version 2.2.13.Final (HQ_2_2_13_FINAL_AS7, 122) [a08788bd-b7c6-11e1-9a1c-70f1a1abdd22]) started
+17:19:14,297 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) trying to deploy queue jms.queue.testQueue
+17:19:14,435 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-1) JBAS010406: Registered connection factory java:/JmsXA
+17:19:14,461 INFO  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011601: Bound messaging object to jndi name java:/queue/test
+17:19:14,466 INFO  [org.hornetq.ra.HornetQResourceAdapter] (MSC service thread 1-1) HornetQ resource adaptor started
+17:19:14,470 INFO  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/test
+17:19:14,476 INFO  [org.jboss.as.connector.services.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatorhornetq-ra
+17:19:14,482 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+17:19:14,493 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+17:19:14,494 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:/RemoteConnectionFactory
+17:19:14,495 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+17:19:14,496 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-3) trying to deploy queue jms.topic.testTopic
+17:19:14,559 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:/topic/test
+17:19:14,564 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/topic/test
+17:19:14,804 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "LearnEJB2.war"
+17:19:15,401 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Read persistence.xml for sampleEJB
+17:19:15,604 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named SalutationBean in deployment unit deployment "LearnEJB2.war" are as follows:
+
+	java:global/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:app/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:module/SalutationBean!packt.SalutationBean
+	java:global/LearnEJB2/SalutationBean
+	java:app/LearnEJB2/SalutationBean
+	java:module/SalutationBean
+
+17:19:16,265 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) JBAS014142: Started message driven bean 'SalutationMessageBeanBean' with 'hornetq-ra' resource adapter
+17:19:16,270 INFO  [org.jboss.as] (MSC service thread 1-5) JBAS015951: Admin console listening on http://127.0.0.1:9990
+17:19:16,271 ERROR [org.jboss.as] (MSC service thread 1-5) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 8205ms - Started 227 of 323 services (15 services failed or missing dependencies, 80 services are passive or on-demand)
+17:19:16,503 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015870: Deploy of deployment "LearnEJB2.war" was rolled back with failure message {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.naming.context.java.module.LearnEJB2.LearnEJB2.env.sampleEJBjboss.naming.context.java.sampleEJBMissing[jboss.naming.context.java.module.LearnEJB2.LearnEJB2.env.sampleEJBjboss.naming.context.java.sampleEJB]","jboss.persistenceunit.\"LearnEJB2.war#sampleEJB\"jboss.naming.context.java.sampleEJBMissing[jboss.persistenceunit.\"LearnEJB2.war#sampleEJB\"jboss.naming.context.java.sampleEJB]"]}
+17:19:16,551 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment LearnEJB2.war in 66ms
+17:19:16,553 INFO  [org.jboss.as.controller] (management-handler-thread - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.sampleEJB (missing) dependents: [service jboss.persistenceunit."LearnEJB2.war#sampleEJB", service jboss.naming.context.java.module.LearnEJB2.LearnEJB2.env.sampleEJB] 
+
+17:19:53,657 INFO  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+17:19:53,659 INFO  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011605: Unbound messaging object to jndi name java:/RemoteConnectionFactory
+17:19:53,659 INFO  [org.jboss.as.osgi] (MSC service thread 1-1) JBAS011942: Stopping OSGi Framework
+17:21:55,718 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 32) JBAS016200: Activating ConfigAdmin Subsystem
+17:21:55,744 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) JBAS010280: Activating Infinispan subsystem.
+17:21:55,757 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 38) JBAS016300: Activating JacORB Subsystem
+17:21:55,828 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 49) JBAS011940: Activating OSGi Subsystem
+17:21:55,838 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 48) JBAS011800: Activating Naming Subsystem
+17:21:55,870 INFO  [org.jboss.as.connector] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+17:21:55,878 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 54) JBAS013101: Activating Security Subsystem
+17:21:55,924 INFO  [org.jboss.as.security] (MSC service thread 1-5) JBAS013100: Current PicketBox version=4.0.7.Final
+17:21:55,931 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 58) JBAS015537: Activating WebServices Extension
+17:21:56,030 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+17:21:56,039 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+17:21:56,055 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+17:21:56,068 INFO  [org.jboss.jaxr] (MSC service thread 1-4) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+17:21:56,109 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+17:21:56,351 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-1) JBoss Web Services - Stack CXF Server 4.0.2.GA
+17:21:56,395 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) Starting Coyote HTTP/1.1 on http--127.0.0.1-8080
+17:21:56,553 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingjournal,bindingsDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingbindings,largeMessagesDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messaginglargemessages,pagingDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingpaging)
+17:21:56,586 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) Waiting to obtain live lock
+17:21:56,741 INFO  [org.hornetq.core.persistence.impl.journal.JournalStorageManager] (MSC service thread 1-6) Using AIO Journal
+17:21:56,751 INFO  [org.jboss.as.jacorb] (MSC service thread 1-3) JBAS016330: CORBA ORB Service started
+17:21:56,967 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory /home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/deployments
+17:21:56,971 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on localhost/127.0.0.1:4447
+17:21:56,978 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on /127.0.0.1:9999
+17:21:57,139 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-6) Waiting to obtain live lock
+17:21:57,140 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-6) Live Server Obtained live lock
+17:21:57,144 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016328: CORBA Naming Service started
+17:21:57,357 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+17:21:57,357 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:/sampleEJB]
+17:21:57,864 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-6) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5455 for CORE protocol
+17:21:57,871 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-6) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5445 for CORE protocol
+17:21:57,876 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) Server is now live
+17:21:57,886 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) HornetQ Server version 2.2.13.Final (HQ_2_2_13_FINAL_AS7, 122) [a08788bd-b7c6-11e1-9a1c-70f1a1abdd22]) started
+17:21:57,960 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+17:21:57,968 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) trying to deploy queue jms.queue.testQueue
+17:21:57,981 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:/queue/test
+17:21:57,983 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/test
+17:21:57,985 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) trying to deploy queue jms.topic.testTopic
+17:21:58,033 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+17:21:58,062 INFO  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011601: Bound messaging object to jndi name java:/topic/test
+17:21:58,065 INFO  [org.hornetq.ra.HornetQResourceAdapter] (MSC service thread 1-2) HornetQ resource adaptor started
+17:21:58,073 INFO  [org.jboss.as.connector.services.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+17:21:58,073 INFO  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/topic/test
+17:21:58,092 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+17:21:58,093 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:/RemoteConnectionFactory
+17:21:58,099 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-6) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+17:21:58,198 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+17:21:58,199 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 4635ms - Started 173 of 253 services (78 services are passive or on-demand)
+17:21:58,331 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "LearnEJB2.war"
+17:21:58,887 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for sampleEJB
+17:21:59,008 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named SalutationBean in deployment unit deployment "LearnEJB2.war" are as follows:
+
+	java:global/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:app/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:module/SalutationBean!packt.SalutationBean
+	java:global/LearnEJB2/SalutationBean
+	java:app/LearnEJB2/SalutationBean
+	java:module/SalutationBean
+
+17:21:59,347 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011402: Starting Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+17:21:59,429 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) JBAS014142: Started message driven bean 'SalutationMessageBeanBean' with 'hornetq-ra' resource adapter
+17:21:59,807 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-4) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+17:21:59,817 INFO  [org.hibernate.Version] (MSC service thread 1-4) HHH000412: Hibernate Core {4.0.1.Final}
+17:21:59,822 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-4) HHH000206: hibernate.properties not found
+17:21:59,827 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-4) HHH000021: Bytecode provider name : javassist
+17:21:59,902 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-4) HHH000204: Processing PersistenceUnitInfo [
+	name: sampleEJB
+	...]
+17:22:00,123 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-4) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+17:22:01,225 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-4) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:22:01,248 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-4) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+17:22:01,267 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-4) HHH000397: Using ASTQueryTranslatorFactory
+17:22:01,737 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC00001: Failed to start service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1767) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [rt.jar:1.7.0]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [rt.jar:1.7.0]
+	at java.lang.Thread.run(Thread.java:722) [rt.jar:1.7.0]
+Caused by: java.lang.RuntimeException: javax.resource.spi.InvalidPropertyException: Destination is mandatory
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.start(MessageDrivenComponent.java:171)
+	at org.jboss.as.ee.component.ComponentStartService.start(ComponentStartService.java:44)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	... 3 more
+Caused by: javax.resource.spi.InvalidPropertyException: Destination is mandatory
+	at org.hornetq.ra.inflow.HornetQActivationSpec.validate(HornetQActivationSpec.java:643)
+	at org.jboss.jca.core.rar.EndpointImpl.activate(EndpointImpl.java:157)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.start(MessageDrivenComponent.java:169)
+	... 6 more
+
+17:22:01,985 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015870: Deploy of deployment "LearnEJB2.war" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.unit.\"LearnEJB2.war\".component.SalutationMessageBeanBean.START" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"LearnEJB2.war\".component.SalutationMessageBeanBean.START: Failed to start service"}}
+17:22:01,996 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011403: Stopping Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+17:22:02,037 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment LearnEJB2.war in 59ms
+17:22:02,039 INFO  [org.jboss.as.controller] (management-handler-thread - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: Failed to start service
+
+17:23:42,234 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-5) Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+17:23:42,237 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011605: Unbound messaging object to jndi name java:/topic/test
+17:23:42,245 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/topic/test
+17:23:42,246 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011605: Unbound messaging object to jndi name java:/queue/test
+17:23:42,236 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) Pausing Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+17:23:42,247 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/queue/test
+17:23:42,248 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) Stopping Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+17:23:42,249 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+17:23:42,251 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011605: Unbound messaging object to jndi name java:/RemoteConnectionFactory
+17:23:42,253 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011605: Unbound messaging object to jndi name java:/ConnectionFactory
+17:23:42,256 INFO  [org.jboss.as.osgi] (MSC service thread 1-1) JBAS011942: Stopping OSGi Framework
+17:23:42,258 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-2) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+17:24:14,712 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 32) JBAS016200: Activating ConfigAdmin Subsystem
+17:24:14,741 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) JBAS010280: Activating Infinispan subsystem.
+17:24:14,741 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 38) JBAS016300: Activating JacORB Subsystem
+17:24:14,778 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 49) JBAS011940: Activating OSGi Subsystem
+17:24:14,798 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 54) JBAS013101: Activating Security Subsystem
+17:24:14,826 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 48) JBAS011800: Activating Naming Subsystem
+17:24:14,842 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 58) JBAS015537: Activating WebServices Extension
+17:24:14,860 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013100: Current PicketBox version=4.0.7.Final
+17:24:14,874 INFO  [org.jboss.as.connector] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+17:24:14,992 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+17:24:15,032 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+17:24:15,073 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+17:24:15,076 INFO  [org.jboss.jaxr] (MSC service thread 1-4) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+17:24:15,120 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+17:24:15,295 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-1) JBoss Web Services - Stack CXF Server 4.0.2.GA
+17:24:15,445 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) Starting Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+17:24:15,547 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingjournal,bindingsDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingbindings,largeMessagesDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messaginglargemessages,pagingDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingpaging)
+17:24:15,577 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) Waiting to obtain live lock
+17:24:15,663 INFO  [org.hornetq.core.persistence.impl.journal.JournalStorageManager] (MSC service thread 1-5) Using AIO Journal
+17:24:15,691 INFO  [org.jboss.as.jacorb] (MSC service thread 1-3) JBAS016330: CORBA ORB Service started
+17:24:15,891 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on localhost/127.0.0.1:4447
+17:24:15,892 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Listening on /127.0.0.1:9999
+17:24:15,951 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory /home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/deployments
+17:24:15,964 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016328: CORBA Naming Service started
+17:24:16,047 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-5) Waiting to obtain live lock
+17:24:16,048 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-5) Live Server Obtained live lock
+17:24:16,163 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+17:24:16,166 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:/sampleEJB]
+17:24:17,130 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-5) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5455 for CORE protocol
+17:24:17,132 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-5) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5445 for CORE protocol
+17:24:17,151 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) Server is now live
+17:24:17,159 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) HornetQ Server version 2.2.13.Final (HQ_2_2_13_FINAL_AS7, 122) [a08788bd-b7c6-11e1-9a1c-70f1a1abdd22]) started
+17:24:17,231 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+17:24:17,237 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-3) trying to deploy queue jms.queue.testQueue
+17:24:17,246 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:/queue/test
+17:24:17,251 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/test
+17:24:17,257 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) trying to deploy queue jms.topic.testTopic
+17:24:17,311 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+17:24:17,346 INFO  [org.hornetq.ra.HornetQResourceAdapter] (MSC service thread 1-2) HornetQ resource adaptor started
+17:24:17,351 INFO  [org.jboss.as.connector.services.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+17:24:17,364 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-3) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+17:24:17,381 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:/topic/test
+17:24:17,395 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/topic/test
+17:24:17,400 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+17:24:17,402 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:/RemoteConnectionFactory
+17:24:17,656 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "LearnEJB2.war"
+17:24:17,965 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for sampleEJB
+17:24:18,073 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named SalutationBean in deployment unit deployment "LearnEJB2.war" are as follows:
+
+	java:global/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:app/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:module/SalutationBean!packt.SalutationBean
+	java:global/LearnEJB2/SalutationBean
+	java:app/LearnEJB2/SalutationBean
+	java:module/SalutationBean
+
+17:24:18,342 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011402: Starting Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+17:24:18,458 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) JBAS014142: Started message driven bean 'SalutationMessageBeanBean' with 'hornetq-ra' resource adapter
+17:24:18,588 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-2) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+17:24:18,597 INFO  [org.hibernate.Version] (MSC service thread 1-2) HHH000412: Hibernate Core {4.0.1.Final}
+17:24:18,600 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-2) HHH000206: hibernate.properties not found
+17:24:18,604 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-2) HHH000021: Bytecode provider name : javassist
+17:24:18,631 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-2) HHH000204: Processing PersistenceUnitInfo [
+	name: sampleEJB
+	...]
+17:24:18,734 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-2) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+17:24:19,071 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-2) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:24:19,094 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-2) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+17:24:19,105 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-2) HHH000397: Using ASTQueryTranslatorFactory
+17:24:19,325 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC00001: Failed to start service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1767) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [rt.jar:1.7.0]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [rt.jar:1.7.0]
+	at java.lang.Thread.run(Thread.java:722) [rt.jar:1.7.0]
+Caused by: java.lang.RuntimeException: javax.resource.spi.InvalidPropertyException: Destination is mandatory
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.start(MessageDrivenComponent.java:171)
+	at org.jboss.as.ee.component.ComponentStartService.start(ComponentStartService.java:44)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	... 3 more
+Caused by: javax.resource.spi.InvalidPropertyException: Destination is mandatory
+	at org.hornetq.ra.inflow.HornetQActivationSpec.validate(HornetQActivationSpec.java:643)
+	at org.jboss.jca.core.rar.EndpointImpl.activate(EndpointImpl.java:157)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.start(MessageDrivenComponent.java:169)
+	... 6 more
+
+17:24:19,350 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015951: Admin console listening on http://127.0.0.1:9990
+17:24:19,354 ERROR [org.jboss.as] (MSC service thread 1-1) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 6853ms - Started 243 of 328 services (3 services failed or missing dependencies, 80 services are passive or on-demand)
+17:24:19,564 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015870: Deploy of deployment "LearnEJB2.war" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.unit.\"LearnEJB2.war\".component.SalutationMessageBeanBean.START" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"LearnEJB2.war\".component.SalutationMessageBeanBean.START: Failed to start service"}}
+17:24:19,575 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011403: Stopping Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+17:24:19,609 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment LearnEJB2.war in 51ms
+17:24:19,611 INFO  [org.jboss.as.controller] (management-handler-thread - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: Failed to start service
+
+17:25:16,028 INFO  [org.jboss.as.controller] (MSC service thread 1-6) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.server.controller.management.security_realm.ApplicationRealm.properties_authentication (missing) dependents: [service jboss.server.controller.management.security_realm.ApplicationRealm] 
+
+17:25:16,036 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+17:25:16,037 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011605: Unbound messaging object to jndi name java:/RemoteConnectionFactory
+17:25:16,039 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011605: Unbound messaging object to jndi name java:/ConnectionFactory
+17:25:23,163 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 32) JBAS016200: Activating ConfigAdmin Subsystem
+17:25:23,194 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) JBAS010280: Activating Infinispan subsystem.
+17:25:23,203 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 38) JBAS016300: Activating JacORB Subsystem
+17:25:23,245 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 49) JBAS011940: Activating OSGi Subsystem
+17:25:23,259 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 48) JBAS011800: Activating Naming Subsystem
+17:25:23,273 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 54) JBAS013101: Activating Security Subsystem
+17:25:23,282 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013100: Current PicketBox version=4.0.7.Final
+17:25:23,339 INFO  [org.jboss.as.connector] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+17:25:23,343 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 58) JBAS015537: Activating WebServices Extension
+17:25:23,400 INFO  [org.jboss.as.naming] (MSC service thread 1-6) JBAS011802: Starting Naming Service
+17:25:23,428 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
+17:25:23,434 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+17:25:23,443 INFO  [org.jboss.jaxr] (MSC service thread 1-5) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+17:25:23,482 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+17:25:23,723 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-5) JBoss Web Services - Stack CXF Server 4.0.2.GA
+17:25:23,889 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Starting Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+17:25:24,016 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingjournal,bindingsDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingbindings,largeMessagesDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messaginglargemessages,pagingDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingpaging)
+17:25:24,064 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) Waiting to obtain live lock
+17:25:24,128 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016330: CORBA ORB Service started
+17:25:24,183 INFO  [org.hornetq.core.persistence.impl.journal.JournalStorageManager] (MSC service thread 1-1) Using AIO Journal
+17:25:24,736 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory /home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/deployments
+17:25:24,746 INFO  [org.jboss.as.jacorb] (MSC service thread 1-5) JBAS016328: CORBA Naming Service started
+17:25:24,752 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Listening on localhost/127.0.0.1:4447
+17:25:24,756 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /127.0.0.1:9999
+17:25:24,864 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-1) Waiting to obtain live lock
+17:25:24,865 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-1) Live Server Obtained live lock
+17:25:24,904 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:/sampleEJB]
+17:25:24,907 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+17:25:25,511 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-1) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5455 for CORE protocol
+17:25:25,515 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-1) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5445 for CORE protocol
+17:25:25,526 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) Server is now live
+17:25:25,527 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) HornetQ Server version 2.2.13.Final (HQ_2_2_13_FINAL_AS7, 122) [a08788bd-b7c6-11e1-9a1c-70f1a1abdd22]) started
+17:25:25,539 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-3) trying to deploy queue jms.topic.testTopic
+17:25:25,632 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:/topic/test
+17:25:25,637 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/topic/test
+17:25:25,641 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) trying to deploy queue jms.queue.testQueue
+17:25:25,655 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:/queue/test
+17:25:25,660 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/test
+17:25:25,685 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+17:25:25,689 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:/RemoteConnectionFactory
+17:25:25,697 INFO  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+17:25:25,718 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-1) JBAS010406: Registered connection factory java:/JmsXA
+17:25:25,750 INFO  [org.hornetq.ra.HornetQResourceAdapter] (MSC service thread 1-1) HornetQ resource adaptor started
+17:25:25,755 INFO  [org.jboss.as.connector.services.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatorhornetq-ra
+17:25:25,764 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-5) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+17:25:25,902 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+17:25:25,908 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 4868ms - Started 173 of 253 services (78 services are passive or on-demand)
+17:25:30,795 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "LearnEJB2.war"
+17:25:31,006 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for sampleEJB
+17:25:31,148 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named SalutationBean in deployment unit deployment "LearnEJB2.war" are as follows:
+
+	java:global/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:app/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:module/SalutationBean!packt.SalutationBean
+	java:global/LearnEJB2/SalutationBean
+	java:app/LearnEJB2/SalutationBean
+	java:module/SalutationBean
+
+17:25:31,484 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011402: Starting Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+17:25:31,577 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) JBAS014142: Started message driven bean 'SalutationMessageBeanBean' with 'hornetq-ra' resource adapter
+17:25:31,680 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-3) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+17:25:31,686 INFO  [org.hibernate.Version] (MSC service thread 1-3) HHH000412: Hibernate Core {4.0.1.Final}
+17:25:31,691 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-3) HHH000206: hibernate.properties not found
+17:25:31,698 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-3) HHH000021: Bytecode provider name : javassist
+17:25:31,725 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-3) HHH000204: Processing PersistenceUnitInfo [
+	name: sampleEJB
+	...]
+17:25:31,810 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-3) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+17:25:32,151 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-3) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:25:32,172 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-3) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+17:25:32,178 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-3) HHH000397: Using ASTQueryTranslatorFactory
+17:25:32,450 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC00001: Failed to start service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1767) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [rt.jar:1.7.0]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [rt.jar:1.7.0]
+	at java.lang.Thread.run(Thread.java:722) [rt.jar:1.7.0]
+Caused by: java.lang.RuntimeException: javax.resource.spi.InvalidPropertyException: Destination is mandatory
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.start(MessageDrivenComponent.java:171)
+	at org.jboss.as.ee.component.ComponentStartService.start(ComponentStartService.java:44)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	... 3 more
+Caused by: javax.resource.spi.InvalidPropertyException: Destination is mandatory
+	at org.hornetq.ra.inflow.HornetQActivationSpec.validate(HornetQActivationSpec.java:643)
+	at org.jboss.jca.core.rar.EndpointImpl.activate(EndpointImpl.java:157)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.start(MessageDrivenComponent.java:169)
+	... 6 more
+
+17:25:32,681 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015870: Deploy of deployment "LearnEJB2.war" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.deployment.unit.\"LearnEJB2.war\".component.SalutationMessageBeanBean.START" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"LearnEJB2.war\".component.SalutationMessageBeanBean.START: Failed to start service"}}
+17:25:32,715 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) JBAS011403: Stopping Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+17:25:32,739 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment LearnEJB2.war in 59ms
+17:25:32,744 INFO  [org.jboss.as.controller] (management-handler-thread - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: org.jboss.msc.service.StartException in service jboss.deployment.unit."LearnEJB2.war".component.SalutationMessageBeanBean.START: Failed to start service
+
+17:29:07,858 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+17:29:07,858 INFO  [org.jboss.as.osgi] (MSC service thread 1-6) JBAS011942: Stopping OSGi Framework
+17:29:07,859 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011605: Unbound messaging object to jndi name java:/RemoteConnectionFactory
+17:29:07,863 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) Pausing Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+17:29:14,936 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 32) JBAS016200: Activating ConfigAdmin Subsystem
+17:29:14,960 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 38) JBAS016300: Activating JacORB Subsystem
+17:29:14,961 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) JBAS010280: Activating Infinispan subsystem.
+17:29:15,005 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 49) JBAS011940: Activating OSGi Subsystem
+17:29:15,007 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 48) JBAS011800: Activating Naming Subsystem
+17:29:15,029 INFO  [org.jboss.as.connector] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+17:29:15,025 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 54) JBAS013101: Activating Security Subsystem
+17:29:15,051 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013100: Current PicketBox version=4.0.7.Final
+17:29:15,106 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 58) JBAS015537: Activating WebServices Extension
+17:29:15,164 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+17:29:15,171 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
+17:29:15,266 INFO  [org.jboss.jaxr] (MSC service thread 1-5) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+17:29:15,308 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+17:29:15,376 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+17:29:15,465 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-6) JBoss Web Services - Stack CXF Server 4.0.2.GA
+17:29:15,672 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) Starting Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+17:29:15,767 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingjournal,bindingsDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingbindings,largeMessagesDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messaginglargemessages,pagingDirectory=/home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/data/messagingpaging)
+17:29:15,822 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) Waiting to obtain live lock
+17:29:15,899 INFO  [org.hornetq.core.persistence.impl.journal.JournalStorageManager] (MSC service thread 1-5) Using AIO Journal
+17:29:15,930 INFO  [org.jboss.as.jacorb] (MSC service thread 1-3) JBAS016330: CORBA ORB Service started
+17:29:16,104 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on localhost/127.0.0.1:4447
+17:29:16,105 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on /127.0.0.1:9999
+17:29:16,167 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /home/sam/IdeaProjects/LearnEJB2/jboss/jboss-as-7.1.1.Final/standalone/deployments
+17:29:16,216 INFO  [org.jboss.as.jacorb] (MSC service thread 1-6) JBAS016328: CORBA Naming Service started
+17:29:16,236 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-5) Waiting to obtain live lock
+17:29:16,240 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-5) Live Server Obtained live lock
+17:29:16,459 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+17:29:16,462 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:/sampleEJB]
+17:29:17,124 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-5) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5445 for CORE protocol
+17:29:17,137 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-5) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5455 for CORE protocol
+17:29:17,148 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) Server is now live
+17:29:17,152 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-5) HornetQ Server version 2.2.13.Final (HQ_2_2_13_FINAL_AS7, 122) [a08788bd-b7c6-11e1-9a1c-70f1a1abdd22]) started
+17:29:17,159 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-2) trying to deploy queue jms.queue.testQueue
+17:29:17,201 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:/queue/test
+17:29:17,211 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/test
+17:29:17,217 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-4) trying to deploy queue jms.topic.testTopic
+17:29:17,327 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-5) JBAS010406: Registered connection factory java:/JmsXA
+17:29:17,357 INFO  [org.hornetq.ra.HornetQResourceAdapter] (MSC service thread 1-5) HornetQ resource adaptor started
+17:29:17,360 INFO  [org.jboss.as.connector.services.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-5) IJ020002: Deployed: file://RaActivatorhornetq-ra
+17:29:17,369 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-6) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+17:29:17,468 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:/topic/test
+17:29:17,480 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/topic/test
+17:29:17,492 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+17:29:17,503 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:/RemoteConnectionFactory
+17:29:17,512 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+17:29:17,771 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "LearnEJB2.war"
+17:29:18,271 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for sampleEJB
+17:29:18,414 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named SalutationBean in deployment unit deployment "LearnEJB2.war" are as follows:
+
+	java:global/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:app/LearnEJB2/SalutationBean!packt.SalutationBean
+	java:module/SalutationBean!packt.SalutationBean
+	java:global/LearnEJB2/SalutationBean
+	java:app/LearnEJB2/SalutationBean
+	java:module/SalutationBean
+
+17:29:18,768 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) JBAS011402: Starting Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+17:29:18,847 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) JBAS014142: Started message driven bean 'SalutationMessageBeanBean' with 'hornetq-ra' resource adapter
+17:29:18,952 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-6) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+17:29:18,959 INFO  [org.hibernate.Version] (MSC service thread 1-6) HHH000412: Hibernate Core {4.0.1.Final}
+17:29:18,961 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-6) HHH000206: hibernate.properties not found
+17:29:18,966 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-6) HHH000021: Bytecode provider name : javassist
+17:29:18,989 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-6) HHH000204: Processing PersistenceUnitInfo [
+	name: sampleEJB
+	...]
+17:29:19,090 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-6) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+17:29:19,436 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-6) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:29:19,457 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-6) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+17:29:19,466 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-6) HHH000397: Using ASTQueryTranslatorFactory
+17:29:20,114 INFO  [org.jboss.web] (MSC service thread 1-4) JBAS018210: Registering web context: /LearnEJB2
+17:29:20,154 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015951: Admin console listening on http://127.0.0.1:9990
+17:29:20,164 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 7342ms - Started 246 of 328 services (80 services are passive or on-demand)
+17:29:20,278 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS018559: Deployed "LearnEJB2.war"
+17:29:56,966 WARNING [SalutationLog] (http-localhost-127.0.0.1-8080-1) Message sent successfully
+17:29:57,033 INFO  [SalutationLog] (Thread-1 (HornetQ-client-global-threads-24508470)) Salutation processed
+17:30:31,985 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011403: Stopping Persistence Unit Service 'LearnEJB2.war#sampleEJB'
+17:30:32,031 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment LearnEJB2.war in 314ms
+17:30:32,213 INFO  [org.jboss.as.server] (management-handler-thread - 7) JBAS018558: Undeployed "LearnEJB2.war"
+17:30:32,369 INFO  [org.apache.catalina.core.StandardContext] (MSC service thread 1-4) Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
