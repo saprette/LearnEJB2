@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jersey-core-1.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/testWs/jersey-core-1.12.jar!/" />
+      <root url="jar://$USER_HOME$/testWs/jersey-server-1.12.jar!/" />
+      <root url="jar://$USER_HOME$/testWs/asm-3.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -11,6 +11,18 @@
             <session-type>Stateless</session-type>
             <transaction-type>Container</transaction-type>
         </session>
+        <session>
+            <ejb-name>TipSessionBeanJaxRSEJB</ejb-name>
+            <ejb-class>packt.ws.Tip</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+        </session>
+        <session>
+            <ejb-name>TipOfTheDayRSEJB</ejb-name>
+            <ejb-class>packt.ws.TipOfTheDayRSBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+        </session>
         <message-driven>
             <ejb-name>SalutationMessageBeanEJB</ejb-name>
             <ejb-class>packt.SalutationMessageBeanBean</ejb-class>

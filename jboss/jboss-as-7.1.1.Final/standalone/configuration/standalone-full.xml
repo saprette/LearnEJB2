@@ -433,9 +433,4 @@
         </outbound-socket-binding>
     </socket-binding-group>
 
-    <deployments>
-        <deployment name="LearnEJB2.war" runtime-name="LearnEJB2.war">
-            <fs-exploded path="/home/sam/IdeaProjects/LearnEJB2/out/artifacts/LearnEJB2.war"/>
-        </deployment>
-    </deployments>
 </server>
